@@ -24,13 +24,15 @@ li {
 ul {
     display: flex;
     flex-direction: row;
-    
+    gap: 20px;
     list-style: none;
     color: white;
     font-weight: normal;
     padding-right: 100px;
     align-items: center;
-    gap: 20px;
+    
+/*you need to fix the gap in the links*/ 
+
 }
 
 .body {
@@ -46,3 +48,25 @@ a {
     
        
 }
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+
+}
+
+#image-placeholder {
+    background-color: grey;
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+}
+
